@@ -2,8 +2,10 @@
 PLAN: "feat: devtools — database diagram and API explorer for an app's dev build; nothing without -tags dev"
 EXECUTOR: jules
 REVIEWER: none
-STATUS: running
+STATUS: review
 SESSION: 14802090462686567099
+PR: https://github.com/webtyp/devtools/pull/1
+REVIEWED_COMMIT: c8379539a82e7b8ad3467a7bc5b5166ced1749c4
 ---
 
 > Read AGENTS.md at the repo root before any change.
