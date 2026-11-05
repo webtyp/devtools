@@ -5,7 +5,6 @@ package tests
 import (
 	"strings"
 	"testing"
-	"webtyp.com/appkit"
 	"webtyp.com/ddl"
 	"webtyp.com/devtools"
 	"webtyp.com/erd"
@@ -69,19 +68,16 @@ func get(r *mock.Router, path string) (int, string) {
 	return status, string(ctx.ResponseBody())
 }
 
-var testApp = appkit.App{
-	Modules: []appkit.Module{{Name: "shop", Server: appkit.ModuleServer{Migrate: shopStep.Run}}},
-}
 
 func TestServerGivesTwoMounts(t *testing.T) {
-	mounts := devtools.Server(testApp)
+	mounts := devtools.Server(shopStep)
 	if len(mounts) != 2 {
 		t.Fatalf("devtools.Server(app) gave %d mounts, want 2", len(mounts))
 	}
 }
 
 func TestRoutesNeedTheirPermission(t *testing.T) {
-	mounts := devtools.Server(testApp)
+	mounts := devtools.Server(shopStep)
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -105,7 +101,7 @@ func TestRoutesNeedTheirPermission(t *testing.T) {
 }
 
 func TestRoutesOpenWithPermission(t *testing.T) {
-	mounts := devtools.Server(testApp)
+	mounts := devtools.Server(shopStep)
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -128,7 +124,7 @@ func TestRoutesOpenWithPermission(t *testing.T) {
 }
 
 func TestSchemaServedWithPermission(t *testing.T) {
-	mounts := devtools.Server(testApp)
+	mounts := devtools.Server(shopStep)
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -160,7 +156,7 @@ func TestSchemaServedWithPermission(t *testing.T) {
 }
 
 func TestNoSchemaWithoutSteps(t *testing.T) {
-	mounts := devtools.Server(appkit.App{})
+	mounts := devtools.Server()
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),

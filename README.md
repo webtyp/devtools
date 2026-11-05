@@ -18,7 +18,7 @@ Generated mains of every app call the tools unconditionally, but in production t
 ```go
 // web/server/main.go
 func main() {
-    if err := appkit.Server(config.App, devtools.Server(config.App)...); err != nil {
+    if err := appkit.Server(config.App, devtools.Server(config.Migrations...)...); err != nil {
         log.Fatal(err)
     }
 }

@@ -4,14 +4,14 @@ package tests
 
 import (
 	"testing"
-	"webtyp.com/appkit"
+
 	"webtyp.com/devtools"
 )
 
 func TestServerEmptyInProduction(t *testing.T) {
-	mounts := devtools.Server(appkit.App{})
+	mounts := devtools.Server()
 	if mounts != nil {
-		t.Fatalf("devtools.Server(app) in production gave %v, want nil", mounts)
+		t.Fatalf("devtools.Server() in production gave %v, want nil", mounts)
 	}
 }
 
