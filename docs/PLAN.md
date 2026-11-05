@@ -2,6 +2,8 @@
 PLAN: "feat: devtools — database diagram and API explorer for an app's dev build; nothing without -tags dev"
 EXECUTOR: jules
 REVIEWER: none
+STATUS: running
+SESSION: 14802090462686567099
 ---
 
 > Read AGENTS.md at the repo root before any change.
