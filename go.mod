@@ -3,7 +3,7 @@ module webtyp.com/devtools
 go 1.26.8
 
 require (
-	webtyp.com/ddl v0.0.43
+	webtyp.com/ddl v0.0.46
 	webtyp.com/erd v0.0.16
 	webtyp.com/json v0.5.37
 	webtyp.com/layout v0.3.103
