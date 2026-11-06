@@ -5,13 +5,14 @@ package tests
 import (
 	"testing"
 
+	"webtyp.com/ddl"
 	"webtyp.com/devtools"
 )
 
 func TestServerEmptyInProduction(t *testing.T) {
-	mounts := devtools.Server()
+	mounts := devtools.Server(ddl.Schema{})
 	if mounts != nil {
-		t.Fatalf("devtools.Server() in production gave %v, want nil", mounts)
+		t.Fatalf("devtools.Server(ddl.Schema{}) in production gave %v, want nil", mounts)
 	}
 }
 

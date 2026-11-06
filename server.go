@@ -12,20 +12,20 @@ import (
 )
 
 // Server is what the development server mounts: the route table at router.IntrospectionPath (api_explorer:read)
-// and the database diagram of the given migrations at erd.SchemaPath (db_schema:read).
+// and the database diagram of the app's schema at erd.SchemaPath (db_schema:read).
 //
-// Example: appkit.Server(config.App, devtools.Server(config.Migrations...)...)
-func Server(steps ...ddl.Step) []func(r router.Router, policy model.PolicyDescriber) error {
+// Example: appkit.Server(config.App, config.Schema, devtools.Server(config.Schema)...)
+func Server(schema ddl.Schema) []func(r router.Router, policy model.PolicyDescriber) error {
 	return []func(router.Router, model.PolicyDescriber) error{
 		func(r router.Router, policy model.PolicyDescriber) error {
 			router.MountIntrospection(r, router.IntrospectionPath, policy).Requires(router.ResourceIntrospection, model.Read)
 			return nil
 		},
 		func(r router.Router, _ model.PolicyDescriber) error {
-			if len(steps) == 0 {
+			if len(schema.Steps) == 0 {
 				return nil
 			}
-			diagram, err := erd.ReadSteps(steps...)
+			diagram, err := erd.ReadSteps(schema.Steps...)
 			if err != nil {
 				return err
 			}

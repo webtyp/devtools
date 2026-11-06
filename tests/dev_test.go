@@ -70,14 +70,14 @@ func get(r *mock.Router, path string) (int, string) {
 
 
 func TestServerGivesTwoMounts(t *testing.T) {
-	mounts := devtools.Server(shopStep)
+	mounts := devtools.Server(ddl.Schema{Steps: []ddl.Step{shopStep}})
 	if len(mounts) != 2 {
 		t.Fatalf("devtools.Server(app) gave %d mounts, want 2", len(mounts))
 	}
 }
 
 func TestRoutesNeedTheirPermission(t *testing.T) {
-	mounts := devtools.Server(shopStep)
+	mounts := devtools.Server(ddl.Schema{Steps: []ddl.Step{shopStep}})
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -101,7 +101,7 @@ func TestRoutesNeedTheirPermission(t *testing.T) {
 }
 
 func TestRoutesOpenWithPermission(t *testing.T) {
-	mounts := devtools.Server(shopStep)
+	mounts := devtools.Server(ddl.Schema{Steps: []ddl.Step{shopStep}})
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -124,7 +124,7 @@ func TestRoutesOpenWithPermission(t *testing.T) {
 }
 
 func TestSchemaServedWithPermission(t *testing.T) {
-	mounts := devtools.Server(shopStep)
+	mounts := devtools.Server(ddl.Schema{Steps: []ddl.Step{shopStep}})
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
@@ -156,7 +156,7 @@ func TestSchemaServedWithPermission(t *testing.T) {
 }
 
 func TestNoSchemaWithoutSteps(t *testing.T) {
-	mounts := devtools.Server()
+	mounts := devtools.Server(ddl.Schema{})
 	r := &mock.Router{}
 	r.Configure(mock.Config{
 		Authn: fakeAuthn("test-user"),
