@@ -6,7 +6,7 @@ require (
 	webtyp.com/ddl v0.0.46
 	webtyp.com/erd v0.0.16
 	webtyp.com/json v0.5.37
-	webtyp.com/layout v0.3.103
+	webtyp.com/layout v0.3.108
 	webtyp.com/model v0.2.13
 	webtyp.com/router v0.4.17
 )
@@ -32,6 +32,6 @@ require (
 	webtyp.com/storage v0.1.18 // indirect
 	webtyp.com/svg v0.3.33 // indirect
 	webtyp.com/time v0.6.4 // indirect
-	webtyp.com/view v0.6.53 // indirect
+	webtyp.com/view v0.6.65 // indirect
 	webtyp.com/widget v0.6.46 // indirect
 )
