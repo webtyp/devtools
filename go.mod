@@ -54,7 +54,7 @@ require (
 	webtyp.com/orm v0.12.26 // indirect
 	webtyp.com/pwa v0.2.13 // indirect
 	webtyp.com/rpc v0.2.17 // indirect
-	webtyp.com/server v0.2.115 // indirect
+	webtyp.com/server v0.2.119 // indirect
 	webtyp.com/storage v0.1.18 // indirect
 	webtyp.com/svg v0.3.33 // indirect
 	webtyp.com/time v0.6.4 // indirect
