@@ -32,7 +32,7 @@ require (
 	webtyp.com/color v0.1.2 // indirect
 	webtyp.com/components v0.8.71 // indirect
 	webtyp.com/context v0.0.23 // indirect
-	webtyp.com/crud v0.0.3 // indirect
+	webtyp.com/crud v0.0.4 // indirect
 	webtyp.com/css v0.4.31 // indirect
 	webtyp.com/dbus v0.1.1 // indirect
 	webtyp.com/dom v0.13.29 // indirect
@@ -53,7 +53,7 @@ require (
 	webtyp.com/msgtype v0.1.0 // indirect
 	webtyp.com/orm v0.12.26 // indirect
 	webtyp.com/pwa v0.2.13 // indirect
-	webtyp.com/rpc v0.2.17 // indirect
+	webtyp.com/rpc v0.2.18 // indirect
 	webtyp.com/server v0.2.119 // indirect
 	webtyp.com/storage v0.1.18 // indirect
 	webtyp.com/svg v0.3.33 // indirect
