@@ -56,7 +56,7 @@ require (
 	webtyp.com/rbac v0.0.33 // indirect
 	webtyp.com/rpc v0.2.18 // indirect
 	webtyp.com/server v0.2.119 // indirect
-	webtyp.com/storage v0.1.18 // indirect
+	webtyp.com/storage v0.1.19 // indirect
 	webtyp.com/svg v0.3.33 // indirect
 	webtyp.com/time v0.6.4 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
