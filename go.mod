@@ -25,7 +25,7 @@ require (
 	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/tools v0.48.0 // indirect
 	howett.net/plist v1.0.0 // indirect
-	webtyp.com/appkit v0.2.28 // indirect
+	webtyp.com/appkit v0.2.29 // indirect
 	webtyp.com/await v0.1.2 // indirect
 	webtyp.com/base64 v0.0.6 // indirect
 	webtyp.com/calendar v0.1.0 // indirect
@@ -53,12 +53,14 @@ require (
 	webtyp.com/msgtype v0.1.0 // indirect
 	webtyp.com/orm v0.12.26 // indirect
 	webtyp.com/pwa v0.2.13 // indirect
+	webtyp.com/rbac v0.0.33 // indirect
 	webtyp.com/rpc v0.2.18 // indirect
 	webtyp.com/server v0.2.119 // indirect
 	webtyp.com/storage v0.1.18 // indirect
 	webtyp.com/svg v0.3.33 // indirect
 	webtyp.com/time v0.6.4 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
+	webtyp.com/user v0.3.14 // indirect
 	webtyp.com/view v0.6.67 // indirect
 	webtyp.com/webauthn v0.1.16 // indirect
 	webtyp.com/widget v0.6.46 // indirect
