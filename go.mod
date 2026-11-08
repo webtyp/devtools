@@ -51,7 +51,7 @@ require (
 	webtyp.com/lang v0.1.16 // indirect
 	webtyp.com/mcp v0.3.23 // indirect
 	webtyp.com/msgtype v0.1.0 // indirect
-	webtyp.com/orm v0.12.26 // indirect
+	webtyp.com/orm v0.12.28 // indirect
 	webtyp.com/pwa v0.2.13 // indirect
 	webtyp.com/rbac v0.0.33 // indirect
 	webtyp.com/rpc v0.2.18 // indirect
