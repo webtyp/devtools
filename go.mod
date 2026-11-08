@@ -32,7 +32,7 @@ require (
 	webtyp.com/color v0.1.2 // indirect
 	webtyp.com/components v0.8.71 // indirect
 	webtyp.com/context v0.0.23 // indirect
-	webtyp.com/crud v0.0.4 // indirect
+	webtyp.com/crud v0.0.5 // indirect
 	webtyp.com/css v0.4.31 // indirect
 	webtyp.com/dbus v0.1.1 // indirect
 	webtyp.com/dom v0.13.29 // indirect
