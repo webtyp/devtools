@@ -3,7 +3,7 @@ module webtyp.com/devtools
 go 1.26.8
 
 require (
-	webtyp.com/ddl v0.0.46
+	webtyp.com/ddl v0.0.49
 	webtyp.com/erd v0.0.16
 	webtyp.com/json v0.5.40
 	webtyp.com/layout v0.3.109
@@ -56,7 +56,7 @@ require (
 	webtyp.com/rbac v0.0.33 // indirect
 	webtyp.com/rpc v0.2.18 // indirect
 	webtyp.com/server v0.2.119 // indirect
-	webtyp.com/storage v0.1.19 // indirect
+	webtyp.com/storage v0.2.0 // indirect
 	webtyp.com/svg v0.3.33 // indirect
 	webtyp.com/time v0.6.4 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
