@@ -39,7 +39,7 @@ require (
 	webtyp.com/env v0.1.3 // indirect
 	webtyp.com/escape v0.1.0 // indirect
 	webtyp.com/events v0.1.7 // indirect
-	webtyp.com/fetch v0.1.29 // indirect
+	webtyp.com/fetch v0.1.30 // indirect
 	webtyp.com/filepath v0.1.0 // indirect
 	webtyp.com/fmt v1.0.0 // indirect
 	webtyp.com/font v0.0.5 // indirect
