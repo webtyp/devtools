@@ -7,15 +7,15 @@ require (
 	webtyp.com/erd v0.0.16
 	webtyp.com/json v0.5.40
 	webtyp.com/layout v0.3.114
-	webtyp.com/model v0.2.19
-	webtyp.com/router v0.4.21
+	webtyp.com/model v0.2.20
+	webtyp.com/router v0.5.0
 )
 
 require (
 	webtyp.com/calendar v0.1.0 // indirect
 	webtyp.com/color v0.1.2 // indirect
 	webtyp.com/components v0.8.71 // indirect
-	webtyp.com/crud v0.0.11 // indirect
+	webtyp.com/crud v0.0.15 // indirect
 	webtyp.com/css v0.4.31 // indirect
 	webtyp.com/definitioncheck v0.0.3 // indirect
 	webtyp.com/dom v0.13.29 // indirect
