@@ -28,7 +28,7 @@ require (
 	webtyp.com/font v0.0.5 // indirect
 	webtyp.com/form v0.4.61 // indirect
 	webtyp.com/html v0.0.30 // indirect
-	webtyp.com/icons v0.0.38 // indirect
+	webtyp.com/icons v0.0.39 // indirect
 	webtyp.com/input v0.2.0 // indirect
 	webtyp.com/lang v0.1.16 // indirect
 	webtyp.com/msgtype v0.1.0 // indirect
