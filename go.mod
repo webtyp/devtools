@@ -14,7 +14,7 @@ require (
 require (
 	webtyp.com/calendar v0.1.0 // indirect
 	webtyp.com/color v0.1.2 // indirect
-	webtyp.com/components v0.8.71 // indirect
+	webtyp.com/components v0.8.72 // indirect
 	webtyp.com/crud v0.0.15 // indirect
 	webtyp.com/css v0.4.31 // indirect
 	webtyp.com/definitioncheck v0.0.3 // indirect
