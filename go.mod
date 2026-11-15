@@ -14,7 +14,7 @@ require (
 require (
 	webtyp.com/calendar v0.1.0 // indirect
 	webtyp.com/color v0.1.2 // indirect
-	webtyp.com/components v0.8.72 // indirect
+	webtyp.com/components v0.8.73 // indirect
 	webtyp.com/crud v0.0.15 // indirect
 	webtyp.com/css v0.4.31 // indirect
 	webtyp.com/definitioncheck v0.0.3 // indirect
@@ -24,7 +24,7 @@ require (
 	webtyp.com/fetch v0.1.30 // indirect
 	webtyp.com/filepath v0.1.0 // indirect
 	webtyp.com/filetype v0.1.1 // indirect
-	webtyp.com/fmt v1.0.0 // indirect
+	webtyp.com/fmt v1.0.2 // indirect
 	webtyp.com/font v0.0.5 // indirect
 	webtyp.com/form v0.4.61 // indirect
 	webtyp.com/html v0.0.30 // indirect
