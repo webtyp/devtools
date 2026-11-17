@@ -186,4 +186,7 @@ func TestMenuHasTools(t *testing.T) {
 	if tools.Database == nil {
 		t.Errorf("Database tool is nil")
 	}
+	if tools.ViewAs == nil {
+		t.Errorf("ViewAs tool is nil")
+	}
 }

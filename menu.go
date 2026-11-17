@@ -15,5 +15,6 @@ func Menu() appmenu.Tools {
 	return appmenu.Tools{
 		API:      apiexplorer.FromServer(),
 		Database: schemaview.FromServer(),
+		ViewAs:   &appmenu.ViewAsConfig{},
 	}
 }
