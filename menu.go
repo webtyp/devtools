@@ -10,7 +10,7 @@ import (
 
 // Menu is the "Developer tools" group of the menu: API explorer and Database.
 //
-// Example: appkit.Browser(config.App, devtools.Menu())
+// Example: browser.Run(config.App, screens.Browser, layoutapp.New(devtools.Menu()))
 func Menu() appmenu.Tools {
 	return appmenu.Tools{
 		API:      apiexplorer.FromServer(),

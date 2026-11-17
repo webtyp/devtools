@@ -14,7 +14,7 @@ import (
 // Server is what the development server mounts: the route table at router.IntrospectionPath (api_explorer:read)
 // and the database diagram of the app's schema at erd.SchemaPath (db_schema:read).
 //
-// Example: appkit.Server(config.App, config.Schema, devtools.Server(config.Schema)...)
+// Example: built.Mount(srv.Router(), devtools.Server(services.Schema)...)
 func Server(schema ddl.Schema) []func(r router.Router, policy model.PolicyDescriber) error {
 	return []func(router.Router, model.PolicyDescriber) error{
 		func(r router.Router, policy model.PolicyDescriber) error {
