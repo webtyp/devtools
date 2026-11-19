@@ -8,7 +8,7 @@ require (
 	webtyp.com/json v0.5.40
 	webtyp.com/layout v0.3.134
 	webtyp.com/model v0.2.26
-	webtyp.com/router v0.5.7
+	webtyp.com/router v0.5.9
 )
 
 require (
