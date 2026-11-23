@@ -12,6 +12,7 @@ import (
 //
 // Example: browser.Run(config.App, screens.Browser, layoutapp.New(devtools.Menu()))
 func Menu() appmenu.Tools {
+	registerMemStats()
 	return appmenu.Tools{
 		API:      apiexplorer.FromServer(),
 		Database: schemaview.FromServer(),
