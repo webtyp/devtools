@@ -40,5 +40,5 @@ require (
 	webtyp.com/time v0.6.7 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
 	webtyp.com/view v0.6.91 // indirect
-	webtyp.com/widget v0.6.50 // indirect
+	webtyp.com/widget v0.6.52 // indirect
 )
