@@ -8,7 +8,7 @@ require (
 	webtyp.com/json v0.5.40
 	webtyp.com/layout v0.3.139
 	webtyp.com/model v0.2.27
-	webtyp.com/router v0.5.9
+	webtyp.com/router v0.5.10
 )
 
 require (
@@ -25,7 +25,7 @@ require (
 	webtyp.com/fetch v0.1.30 // indirect
 	webtyp.com/filepath v0.1.3 // indirect
 	webtyp.com/filetype v0.1.1 // indirect
-	webtyp.com/fmt v1.0.3 // indirect
+	webtyp.com/fmt v1.0.4 // indirect
 	webtyp.com/font v0.0.5 // indirect
 	webtyp.com/form v0.4.73 // indirect
 	webtyp.com/html v0.0.30 // indirect
